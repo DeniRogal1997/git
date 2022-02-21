@@ -1,0 +1,13 @@
+<bug_report_structure>
+   <id>id of the bug</id>
+   <summary>what? where? when?</summary>
+   <description>description of the bug</description>
+   <actualResult>some text</actualResult>
+   <expectedResult>some text</expectedResult>
+   <stepsToReproduceTheBug>some text</stepsToReproduceTheBug>
+   <attachment>some files</attachment>
+   <enviroment>prod, test, dev</enviroment>
+   <priority>priority is defined as the order in which a defect should be fixed</priority>
+   <severity>severity means how the found bug impacts our system, the higher the severity - the sooner our bug will be fixed</severity>
+   <status>status of the reported bug</status>
+</bug_report_structure>
