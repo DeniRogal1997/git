@@ -1,0 +1,10 @@
+theory
+linux terminal
+git commands
+sql
+postman[A[A[C[C[C[C[C
+python[B[B[B[C[
+sql
+api
+jmeter
+android studio
