@@ -28,6 +28,7 @@
 
  
  8. Отправить изменения на внешний репозиторий.
+ # git add new.txt
  # git commit -m "any text"
  # git push
  
@@ -109,6 +110,7 @@
 
 
  26. Отправить изменения на внешний репозиторий.
+ # git add new.json
  # git commit -m "any text"
  # git push
 
