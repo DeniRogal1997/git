@@ -137,27 +137,108 @@
  # git commit -am "any text"
  
  31. На веб интерфейсе создать файл bug_report.json.
+ # идем на гит и создаем файл "bug_report.json"
+
  32. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ # сохраняем изменения
+
  33. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ # на вебе в гите вносим изменения в bug_report.json
+
  34. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ # сохраняем изменения
+
  35. Синхронизировать внешний и локальный репозиторий JSON
+ # git pull
+
+
+
+
+
 
 XML
  36. Создать внешний репозиторий c названием XML.
+ # заходим на наш гит и создаем репозиторий - "XML"
+ 
  37. Клонировать репозиторий XML на локальный компьютер.
+ # git clone "ссылка на наш репозиторий" (предварительно заходим в директорию куда хотим клонировать)
+
  38. Внутри локального XML создать файл “new.xml”.
+ # cat > new.mxl
+ 
  39. Добавить файл под гит.
+ # git add new.xml
+ 
  40. Закоммитить файл.
+ # git commit -m "any text"
+ 
  41. Отправить файл на внешний GitHub репозиторий.
+ # git push
+ 
  42. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ # cat >> new.xml
+ # вводим следующее:
+
+ <basic information>
+	<name>Deni</name>
+	<age>24</age>
+	<pets>2</pets>
+	<salary>1000$</salary>
+ </basic information>
+
+ 
  43. Отправить изменения на внешний репозиторий.
+ # git commit -am "any text"
+ # git push
+ 
  44. Создать файл preferences.xml
+ # cat > preferences.mxl
+ 
  45. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ # cat >> preferences.xml
+ # вводим следующее:
+ 
+<preferences>
+	<favourite_film>can't choose only one</favourite_film>
+	<favourite_tv_show>stranger things</favourite_tv_show>
+	<favourite_food>pizza</favourite_food>
+	<favourite_season>summer</favourite_season>
+	<favourite_country>USA, Canada, Japan</favourite_country>
+</preferences>
+ 
  46. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ #cat > skills.mxl
+ # вводим следующее:
+
+ <skills>
+	<theory>what is bug, types of testing etc...</theory>
+	<sql>basic sql requests: select, update, join, delete</sql>
+	<postman>structure "key": "value" etc...</postman>
+	<API>api</API>
+	<terminal>basic linux commands</terminal>
+	<git>basic git commands</git>
+	<etc>and a lot of other things as charles, fiddler etc...</etc>
+ </skills>
+ 
  47. Сделать коммит в одну строку.
+ #git commit -am "any text"
+
+ 
  48. Отправить сразу 2 файла на внешний репозиторий.
+ #git push
+ 
  49. На веб интерфейсе создать файл bug_report.xml.
+ # идет на гит и создаем файл bug_report.mxl через веб интерфейс
+ 
  50. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ # сохраняем изменения
+ 
  51. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ # редактируем файл report.mxl через веб интрефейс
+ 
  52. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ # сохраняем изменения
+ 
  53. Синхронизировать внешний и локальный репозиторий XML
+ # git pull
+ 
