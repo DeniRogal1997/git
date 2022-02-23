@@ -194,12 +194,12 @@ XML
  # cat >> new.xml
  # вводим следующее:
 
- <basic information>
+ <basic_information>
 	<name>Deni</name>
 	<age>24</age>
 	<pets>2</pets>
 	<salary>1000$</salary>
- </basic information>
+ </basic_information>
 
  
  43. Отправить изменения на внешний репозиторий.
