@@ -1,4 +1,0 @@
-name: Deni
-age: 24
-pets: 2
-salary: 1000$

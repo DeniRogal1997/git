@@ -1,9 +1,0 @@
-<skills>
-	<theory>what is bug, types of testing etc...</theory>
-	<sql>basic sql requests: select, update, join, delete</sql>
-	<postman>structure "key": "value" etc...</postman>
-	<API>api</API>
-	<terminal>basic linux commands</terminal>
-	<git>basic git commands</git>
-	<etc>and a lot of other things as charles, fiddler etc...</etc>
-</skills>
